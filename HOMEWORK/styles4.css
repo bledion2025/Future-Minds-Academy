@@ -1,0 +1,18 @@
+.hover-p {
+    padding: 23px;
+    transition: background-color 0.4s ease;
+}
+
+.hover-p::first-letter {
+    font-size: 5em;
+    transition: font-size 0.4 ease;
+}
+
+.hover-p:hover {
+    background-color: violet;
+}
+
+.hover-p:hover::first-letter {
+    font-size: 5em;
+    font-weight: bold;
+}
