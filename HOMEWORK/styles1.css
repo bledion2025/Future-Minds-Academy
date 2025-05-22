@@ -1,0 +1,10 @@
+section {
+    width: 20%;
+}
+
+section:first-letter {
+font-size: 400%;
+float: left;
+line-height: 1;
+padding-right: 5px;
+}
