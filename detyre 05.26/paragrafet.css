@@ -1,0 +1,43 @@
+body {
+margin: 0%;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: white;
+  text-decoration: underline;
+}
+
+section {
+  height: 25vh;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+
+p {
+    color: white;
+}
+
+section:nth-child(odd) {
+  background-color: black;
+}
+
+section:nth-child(even) {
+  background-color: greenyellow;
+  color: greenyellow;
+}
+
+hr {
+  width: 33%;
+  border: none;
+  border-top: 3px solid red;
+  margin-top: 1em;
+}
+
+hr {
+  width: 33%;
+  border: none;
+  border-top: 6px solid red;
+  margin-top: 1em;
+}
