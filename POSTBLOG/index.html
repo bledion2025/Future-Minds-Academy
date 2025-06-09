@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    aside {
+      width: 250px;
+      height: 100vh;
+      background-color: #35495e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    aside h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    aside p {
+      color: #b0c4d9;
+      margin: 1rem 0;
+    }
+
+    aside a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border: 1px solid white;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 2rem 3rem;
+      background-color: #fff;
+    }
+
+    .section-title {
+      color: #aaa;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+
+    .posti {
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+      color: #111;
+    }
+
+    .under {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    .under a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .tags {
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+
+    .tag {
+      background-color: #3498db;
+      color: white;
+      font-size: 0.75rem;
+      padding: 2px 6px;
+      border-radius: 3px;
+      margin-right: 4px;
+    }
+
+    .tag.green {
+      background-color: #2ecc71;
+    }
+
+    .prs {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .avatar {
+      float: right;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      margin-left: 1rem;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .prss {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+  </style>
+</head>
+
+<body>
+  <aside>
+    <h1>Hello</h1>
+    <p>PERSHENDETJE</p>
+    <a href="index.html"><span>login</span></a>
+  </aside>
+
+  <main>
+    <section>
+      <div class="section-title">Pinned Post</div>
+      <div class="clearfix">
+        <img src="https://i.pravatar.cc/48?img=12" alt="avatar" class="avatar" />
+        <h2 class="posti">A pinned post</h2>
+        <p class="under">
+          By <a href="#">John Doe</a> under
+          <span class="tags">
+            <span class="tag green">CSS</span>
+            <span class="tag">HTML</span>
+          </span>
+        </p>
+        <p class="prs">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+    </section>
+    <main class="content">
+      <section>
+        <img src="https://i.pravatar.cc/48?img=12" alt="avatar" class="avatar" />
+        <h1 class="post">A pinned post</h1>
+        <p class="underr">By John Doe under </p>
+        <span class="tags">
+          <span class="tag green">CSS</span>
+          <span class="tag">HTML</span>
+        </span>
+        <p class="prss">Using the things we've learned until now, create a webpage which has one pinned post and many
+          recent posts which looks like the below:</p>
+      </section>
+    </main>
+  </main>
+
+</body>
+
+</html>
