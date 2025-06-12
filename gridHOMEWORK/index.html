@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Grid</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            height: 100vh;
+            background: #f4e2d8;
+            font-family: sans-serif;
+            position: relative;
+        }
+
+        .background-shape {
+            background-color: aquamarine;
+            backdrop-filter: blur(200px);
+            height: 250px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .gridi {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-shape"></div>
+
+    <section class="gridi">
+        <h1>HELLO GRID</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda maiores numquam dolore nostrum non
+            quasi officia vel consequuntur, eaque laborum fugit molestias quae temporibus, commodi sapiente. Iste
+            possimus dolores voluptates, velit dolor eius vero rem corrupti, a veniam beatae sit numquam aliquam officia
+            soluta blanditiis provident alias. Exercitationem repellat animi magni. Qui repellat dolorem blanditiis modi
+            perspiciatis ut accusantium dolore libero laborum inventore ab ullam optio quidem, nulla vero nam id
+            praesentium velit nisi esse vitae earum aliquid. Repellat accusantium quo totam esse ipsam quisquam earum
+            iste dignissimos aut. Nostrum quas pariatur cumque harum quod, non quis velit impedit qui dolores ipsum
+            neque aliquid voluptas facere libero ipsam voluptatem dicta ipsa sit magni reprehenderit ullam. Laboriosam a
+            beatae ut, unde in, eveniet rem similique quia doloremque id deserunt harum nemo eum ullam debitis. Esse,
+            totam! Cumque autem, explicabo sequi eos voluptate deserunt animi ratione in, eveniet vero fugit? </p>
+    </section>
+</body>
+
+</html>
